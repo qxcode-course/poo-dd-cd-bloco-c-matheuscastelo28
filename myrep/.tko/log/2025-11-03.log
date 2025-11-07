@@ -1,0 +1,6 @@
+2025-11-03 15:40:43, MOVE, v:1, k:poo@budega, mode:PICK
+2025-11-03 15:40:44, EXEC, v:1, k:poo@budega, mode:FULL, rate:0
+2025-11-03 16:13:03, MOVE, v:1, k:poo@budega, mode:BACK
+2025-11-03 16:13:08, MOVE, v:1, k:poo@lapiseira, mode:DOWN
+2025-11-03 16:13:09, MOVE, v:1, k:poo@pula-pula, mode:DOWN
+2025-11-03 16:13:22, MOVE, v:1, k:poo@pula-pula, mode:PICK
