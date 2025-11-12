@@ -1,0 +1,9 @@
+{
+    "patches": [
+        {
+            "label": "2025-11-10_16-46-26",
+            "content": "nomes: dict[int, str] = {\n    1: \"one\",\n    2: \"two\",\n    3: \"three\",\n    4: \"four\",\n    5: \"five\t\"\n}\n#   chave = valor\nnomes[1] = \"one\"\nnomes[2] = \"two\"\nnomes[3] = \"three\"\nnomes[4] = \"four\"\nnomes[6] = \"six\"\n\nvalores: dict[str, int] = {}\nvalores[\"four\"] = 4\nvalores[\"two\"] = 2\nvalores[\"three\"] = 3\nvalores[\"one\"] = 1\nvalores[\"five\"] = 5\n\ndef somar(a: str, b: str) -> str:\n\n    somar(\"one\", \"one\") # two\nsomar(\"three\", \"four\") # seven\n",
+            "lines": "25"
+        }
+    ]
+}
